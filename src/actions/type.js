@@ -1,0 +1,1 @@
+export const GET_URL_DETAILS = 'GET_URL_DETAILS'

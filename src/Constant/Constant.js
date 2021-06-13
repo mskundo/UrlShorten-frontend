@@ -1,0 +1,1 @@
+export const GET_URL='http://localhost:8080/shortUrl'

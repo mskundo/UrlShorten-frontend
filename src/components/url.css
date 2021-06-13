@@ -1,0 +1,29 @@
+.project-line{
+    border-top: 1px solid grey;
+  }
+  
+  .card {
+    margin: 0px 500px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 500px;
+  }
+  
+  
+  .project-button{
+    padding:10px 20px;
+  }
+
+  .label{
+      width: 100px;
+  }
+
+  #longUrl{
+      width :500px;
+  }
+
+
+
+  
+  
+  
