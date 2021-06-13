@@ -1,21 +1,24 @@
 Application is available in docker
-We can run the application in 2 ways.
+We can run the application in 3 ways.
+
 
 Way-1
-________
-1. Pull the docker image to local
+--------
+1. Run docker in local.
+2. Pull the docker image to local
    docker image pull mskundo/urlshorten-frontend
-2. Run the image in local
+3. Run the image in local
    docker container run -p 3000:3000 urlshorten-frontend
 3. Open the application on browser - http://localhost:3000    
 
 Way - 2
-___________
-1. Clone the application in local.
+---------
+1. Clone the application to local.
    git clone https://github.com/mskundo/UrlShorten-frontend.git
-2. Create an image locallly
+2. Start docker in local   
+3. Create an image locallly
    docker image build -t urlshorten-frontend .   
-3. Run the image in local
+4. Run the image in local
    docker container run -p 3000:3000 urlshorten-frontend
-4. Open the application on browser - http://localhost:3000     
+5. Open the application on browser - http://localhost:3000     
 
